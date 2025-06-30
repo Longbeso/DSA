@@ -1,6 +1,11 @@
 #include<stdlib.h>
 #include<stdio.h>
 using namespace std;
+
+// con trỏ head thật chất là một con trỏ dùng để lưu địa chỉ của một biến có kiểu dữ liệu là node, bản thân nó không có trường nào hết;
+
+
+
 // tạo kiểu dữ liệu node
 struct node{
     int data;
